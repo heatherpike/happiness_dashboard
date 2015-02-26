@@ -13,3 +13,16 @@ The callback parameter should be a function that looks like this:
 
 function( tabs.Tab tab) {...};
 tabs.Tab
+
+
+Content Security Policy - can't use inline scripts
+http://stackoverflow.com/questions/12129077/content-security-policy-cannot-load-google-api-in-chrome-extension
+https://developer.chrome.com/apps/contentSecurityPolicy
+
+
+Storage
+https://developer.chrome.com/extensions/storage
+chrome.storage.sync.get ....
+added "Storage" into permissions to enable use of the chrome storage library
+enables persistence of user data
+

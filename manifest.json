@@ -5,8 +5,15 @@
   "description": "A new tab page to prove daily happiness inspiration",
   "version": "0.0.1",
   "permissions": [
-    "https://ajax.googleapis.com/"
+    "http://*/",
+    "storage"
   ],
+  //we could us the override below INSTEAD of the background code. 
+  //instead of opening the page w/the smiley button our page would open when we open a new tab in Chrome
+  //like a default homepage
+  // "chrome_url_overrides": {
+  //       "newtab": "page.html"
+  //   },
 
   "background": {
     "scripts": ["event.js"],
